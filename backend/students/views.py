@@ -46,8 +46,6 @@ class StudentVideoViewSet(viewsets.ReadOnlyModelViewSet):
         return queryset
 
 
-
-
 class StudentQuizViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = QuizSerializer
     permission_classes = [IsAuthenticated]
