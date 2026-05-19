@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+backend/media/
+
+# Node
+**/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+*.env
+!.env.example
