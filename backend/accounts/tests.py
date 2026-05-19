@@ -7,7 +7,7 @@ from rest_framework.test import APITestCase
 User = get_user_model()
 
 
-class AuthApiTests(APITestCase):
+class AuthenticationApiTests(APITestCase):
     def test_register_returns_tokens(self):
         response = self.client.post(
             reverse("register"),
